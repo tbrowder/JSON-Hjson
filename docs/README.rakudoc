@@ -21,7 +21,7 @@ say from-hjson($text).raku;
 
 JSON::Hjson implements Human JSON (Hjson) in Raku grammar.
 
-=SEE ALSO
+=head1 SEE ALSO
 
 [JSON::Tiny](JSON::Tiny)
 
@@ -29,7 +29,7 @@ JSON::Hjson implements Human JSON (Hjson) in Raku grammar.
 
 =AUTHOR Takumi Akiyama <t.akiym@gmail.com>
 
-=COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 Copyright 2016 Takumi Akiyama
 

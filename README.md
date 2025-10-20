@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/akiym/JSON-Hjson/actions/workflows/linux.yml/badge.svg)](https://github.com/akiym/JSON-Hjson/actions) [![Actions Status](https://github.com/akiym/JSON-Hjson/actions/workflows/macos.yml/badge.svg)](https://github.com/akiym/JSON-Hjson/actions) [![Actions Status](https://github.com/akiym/JSON-Hjson/actions/workflows/windows.yml/badge.svg)](https://github.com/akiym/JSON-Hjson/actions)
+
 NAME
 ====
 
@@ -6,20 +8,24 @@ JSON::Hjson - Human JSON (Hjson) deserializer
 SYNOPSIS
 ========
 
+
+
     use JSON::Hjson;
 
-    my $text = q:to'...';
+    my $text = q:to/HERE/;
     {
       // specify delay in
       // seconds
       delay: 1
       message: wake up!
     }
-    ...
+    HERE
     say from-hjson($text).raku;
 
 DESCRIPTION
 ===========
+
+
 
 JSON::Hjson implements Human JSON (Hjson) in Raku grammar.
 
