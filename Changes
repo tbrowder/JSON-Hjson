@@ -1,6 +1,10 @@
 Revision history for JSON-Hjson
 
 {{$NEXT}}
+    - Added separate GitHub workflows tests for Linux, MacOS, and Windows
+    - Removed t/99-meta.t (made obsolete by new t/0-load.t)
+    - Created new file "docs/README.rakudoc" as source to create the
+      "README.md" used by GitHub
 
 0.0.3  2024-02-13T00:33:22+09:00
     - JSON::Hjson is now uploaded to Zef ecosystem

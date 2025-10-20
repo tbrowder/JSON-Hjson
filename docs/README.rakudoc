@@ -1,0 +1,38 @@
+=begin pod
+
+=NAME JSON::Hjson - Human JSON (Hjson) deserializer
+
+=SYNOPSIS
+=begin code
+use JSON::Hjson;
+
+my $text = q:to/HERE/;
+{
+  // specify delay in
+  // seconds
+  delay: 1
+  message: wake up!
+}
+HERE
+say from-hjson($text).raku;
+=end code
+
+=DESCRIPTION
+
+JSON::Hjson implements Human JSON (Hjson) in Raku grammar.
+
+=SEE ALSO
+
+[JSON::Tiny](JSON::Tiny)
+
+[https://hjson.github.io/](https://hjson.github.io/)
+
+=AUTHOR Takumi Akiyama <t.akiym@gmail.com>
+
+=COPYRIGHT AND LICENSE
+
+Copyright 2016 Takumi Akiyama
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
